@@ -1,0 +1,20 @@
+.example-button-row button {
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-width: thin;
+}
+
+.inner{
+  width: 300px;
+  margin: 5px;
+  text-align: center;
+}
+
+.container{
+  display: flex; /* establish flex container */
+  flex-direction: column; /* make main-axis vertical */
+  justify-content: center; /* align items vertically, in this case */
+  align-items: center; /* align items horizontally, in this case */
+  height: 100%;
+}

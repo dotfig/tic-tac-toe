@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="inner">
+    <h3>Tic Tac Toe</h3>
+    <div class="example-button-row">
+      <button mat-button (click)="boxClicked(1)">{{user.includes(1) ? 'X' : computer.includes(1) ? 'O' : ' '}}</button>
+      <button mat-button (click)="boxClicked(2)">{{user.includes(2) ? 'X' : computer.includes(2) ? 'O' : ' '}}</button>
+      <button mat-button (click)="boxClicked(3)">{{user.includes(3) ? 'X' : computer.includes(3) ? 'O' : ' '}}</button>
+    </div>
+    <div class="example-button-row">
+      <button mat-button (click)="boxClicked(4)">{{user.includes(4) ? 'X' : computer.includes(4) ? 'O' : ' '}}</button>
+      <button mat-button (click)="boxClicked(5)">{{user.includes(5) ? 'X' : computer.includes(5) ? 'O' : ' '}}</button>
+      <button mat-button (click)="boxClicked(6)">{{user.includes(6) ? 'X' : computer.includes(6) ? 'O' : ' '}}</button>
+    </div>
+    <div class="example-button-row">
+      <button mat-button (click)="boxClicked(7)">{{user.includes(7) ? 'X' : computer.includes(7) ? 'O' : ' '}}</button>
+      <button mat-button (click)="boxClicked(8)">{{user.includes(8) ? 'X' : computer.includes(8) ? 'O' : ' '}}</button>
+      <button mat-button (click)="boxClicked(9)">{{user.includes(9) ? 'X' : computer.includes(9) ? 'O' : ' '}}</button>
+    </div>
+  </div>
+</div>
